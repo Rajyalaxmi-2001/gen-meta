@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4eb3f2d0;
+  padding: 1rem;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+}
+
+.nav-menu li {
+  margin-right: 1rem;
+}
+
+.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user-icon {
+  display: flex;
+  align-items: center;
+}
+
+.user-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
